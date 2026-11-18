@@ -40,7 +40,7 @@ export default function UpdateMasterLibraryForm({ onSuccess, className = '', sel
             reset({
                 lmS_Id: row.lmS_Id,
                 lmS_SubjectName: row.lmS_SubjectName,
-                lmS_Level: row.lmS_Level,
+                lmS_Level: String(row.lmS_Level),
                 lmS_SubjectNo: row.lmS_SubjectNo,
                 lmS_ClassNo: row.lmS_ClassNo
             });
@@ -85,8 +85,8 @@ export default function UpdateMasterLibraryForm({ onSuccess, className = '', sel
                             label='Subject Name'
                             required
                             id='ismS_Id'
-                            {...register('ismS_Id', {})}
-                            error={errors.ismS_Id?.message}
+                            {...register('ismS_SubjectName', {})}
+                            error={errors.ismS_SubjectName?.message}
                             className='transition-colors focus:ring-2 focus:ring-primary/20'
                         />
                         <InputText
