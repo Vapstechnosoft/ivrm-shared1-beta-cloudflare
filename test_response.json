@@ -1,0 +1,78 @@
+{
+    "candidate": {
+        "name": "Unknown",
+        "email": null,
+        "phone": null,
+        "experience_years": 0,
+        "education": {
+            "degree": null,
+            "degree_rank": 0,
+            "field": "react"
+        },
+        "skills": {
+            "technical": ["node.js", "react", "typescript"],
+            "soft": []
+        }
+    },
+    "job": {
+        "title": null,
+        "min_experience": 0,
+        "education_req": {
+            "degree": null,
+            "degree_rank": 0,
+            "field": null
+        },
+        "required_skills": {
+            "technical": ["node.js", "react", "typescript"],
+            "soft": []
+        },
+        "preferred_skills": {
+            "technical": [],
+            "soft": []
+        }
+    },
+    "score": {
+        "value": 29.5,
+        "cosine_raw": 13.41,
+        "decision": "NOT SUITABLE",
+        "breakdown": {
+            "required_technical_skills": {
+                "matched": ["node.js", "react", "typescript"],
+                "missing": [],
+                "extra": [],
+                "match_pct": 100
+            },
+            "preferred_technical_skills": {
+                "matched": [],
+                "missing": [],
+                "extra": ["node.js", "react", "typescript"],
+                "match_pct": 100
+            },
+            "soft_skills": {
+                "matched": [],
+                "missing": [],
+                "extra": [],
+                "match_pct": 100
+            },
+            "experience": {
+                "meets": true,
+                "candidate": 0,
+                "required": 0,
+                "note": "No minimum specified"
+            },
+            "education": {
+                "meets": true,
+                "note": "No education requirement specified",
+                "candidate": null,
+                "required": null
+            }
+        },
+        "top_matched_terms": ["typescript", "js", "react", "node js", "node"]
+    },
+    "report": {
+        "text": null,
+        "error": "Client.__init__() got an unexpected keyword argument 'proxies'",
+        "model": "openai/gpt-oss-120b",
+        "tokens": 0
+    }
+}

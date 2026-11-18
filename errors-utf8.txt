@@ -1,0 +1,53 @@
+﻿app/(root)/Exam/exam-module/exam-mapping/exam-hall-ticket-generation/_components/hallticket-generation-details.tsx(96,43): error TS1005: '</' expected.
+app/(root)/Exam/exam-module/exam-mapping/exam-hall-ticket-generation/_components/hallticket-generation-details.tsx(97,1): error TS1185: Merge conflict marker encountered.
+app/(root)/Exam/exam-module/exam-mapping/exam-hall-ticket-generation/_components/hallticket-generation-details.tsx(107,26): error TS17008: JSX element 'Button' has no corresponding closing tag.
+app/(root)/Exam/exam-module/exam-mapping/exam-hall-ticket-generation/_components/hallticket-generation-details.tsx(119,1): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/exam-hall-ticket-generation/_components/hallticket-generation-details.tsx(119,2): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/exam-hall-ticket-generation/_components/hallticket-generation-details.tsx(119,3): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/exam-hall-ticket-generation/_components/hallticket-generation-details.tsx(119,4): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/exam-hall-ticket-generation/_components/hallticket-generation-details.tsx(119,5): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/exam-hall-ticket-generation/_components/hallticket-generation-details.tsx(119,6): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/exam-hall-ticket-generation/_components/hallticket-generation-details.tsx(119,7): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/exam-hall-ticket-generation/_components/hallticket-generation-details.tsx(124,13): error TS1128: Declaration or statement expected.
+app/(root)/Exam/exam-module/exam-mapping/exam-hall-ticket-generation/_components/hallticket-generation-details.tsx(125,9): error TS1109: Expression expected.
+app/(root)/Exam/exam-module/exam-mapping/exam-hall-ticket-generation/_components/hallticket-generation-details.tsx(126,5): error TS1109: Expression expected.
+app/(root)/Exam/exam-module/exam-mapping/exam-login-privilages/_components/add-form.tsx(721,18): error TS17008: JSX element 'form' has no corresponding closing tag.
+app/(root)/Exam/exam-module/exam-mapping/exam-login-privilages/_components/add-form.tsx(1146,1): error TS1185: Merge conflict marker encountered.
+app/(root)/Exam/exam-module/exam-mapping/exam-login-privilages/_components/add-form.tsx(1150,1): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/exam-login-privilages/_components/add-form.tsx(1150,2): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/exam-login-privilages/_components/add-form.tsx(1150,3): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/exam-login-privilages/_components/add-form.tsx(1150,4): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/exam-login-privilages/_components/add-form.tsx(1150,5): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/exam-login-privilages/_components/add-form.tsx(1150,6): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/exam-login-privilages/_components/add-form.tsx(1150,7): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/exam-login-privilages/_components/add-form.tsx(1153,38): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+app/(root)/Exam/exam-module/exam-mapping/exam-login-privilages/_components/add-form.tsx(1154,35): error TS17002: Expected corresponding JSX closing tag for 'Button'.
+app/(root)/Exam/exam-module/exam-mapping/exam-login-privilages/_components/add-form.tsx(1155,29): error TS1005: ')' expected.
+app/(root)/Exam/exam-module/exam-mapping/exam-login-privilages/_components/add-form.tsx(1157,22): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+app/(root)/Exam/exam-module/exam-mapping/exam-login-privilages/_components/add-form.tsx(1158,19): error TS17002: Expected corresponding JSX closing tag for 'div'.
+app/(root)/Exam/exam-module/exam-mapping/exam-login-privilages/_components/add-form.tsx(1159,13): error TS1005: ')' expected.
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(716,1): error TS1185: Merge conflict marker encountered.
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(723,33): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(723,34): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(723,35): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(725,1): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(725,2): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(725,3): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(725,4): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(725,5): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(725,6): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(725,7): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(762,35): error TS1005: '</' expected.
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(764,1): error TS1185: Merge conflict marker encountered.
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(773,25): error TS1128: Declaration or statement expected.
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(774,1): error TS1185: Merge conflict marker encountered.
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(787,1): error TS1185: Merge conflict marker encountered.
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(788,21): error TS1109: Expression expected.
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(789,17): error TS1128: Declaration or statement expected.
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(790,13): error TS1109: Expression expected.
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(791,9): error TS1109: Expression expected.
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(792,5): error TS1109: Expression expected.
+app/(root)/Exam/exam-module/exam-mapping/student-subject-mapping/page.tsx(793,1): error TS1128: Declaration or statement expected.
+server/common.ts(6205,1): error TS1185: Merge conflict marker encountered.
+server/common.ts(6396,1): error TS1185: Merge conflict marker encountered.
+server/common.ts(6398,1): error TS1185: Merge conflict marker encountered.

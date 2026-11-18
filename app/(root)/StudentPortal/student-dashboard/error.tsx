@@ -1,0 +1,30 @@
+'use client';
+
+import { Button } from '@/components/ui/button';
+import { AlertCircle } from 'lucide-react';
+import { useEffect } from 'react';
+
+export default function Error({
+    error,
+    reset
+}: {
+    error: Error & { digest?: string };
+    reset: () => void;
+}) {
+    useEffect(() => {
+        console.error(error);
+    }, [error]);
+
+    return (
+        <div className='flex h-[50vh] flex-col items-center justify-center space-y-4'>
+            <div className='flex items-center space-x-2 text-red-600'>
+                <AlertCircle className='h-6 w-6' />
+                <h2 className='font-semibold text-xl'>Something went wrong!</h2>
+            </div>
+            <p className='text-gray-600'>{error.message || 'An unexpected error occurred.'}</p>
+            <Button onClick={() => reset()} variant='outline'>
+                Try again
+            </Button>
+        </div>
+    );
+}

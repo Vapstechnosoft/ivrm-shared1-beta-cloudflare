@@ -1,0 +1,512 @@
+{
+    "openapi": "3.1.0",
+    "info": {
+        "title": "ATS Resume Screener API",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/": {
+            "get": {
+                "tags": ["Health"],
+                "summary": "Root",
+                "operationId": "root__get",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/health": {
+            "get": {
+                "tags": ["Health"],
+                "summary": "Health",
+                "operationId": "health_health_get",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/parse/resume": {
+            "post": {
+                "tags": ["Parse"],
+                "summary": "Parse Resume Endpoint",
+                "operationId": "parse_resume_endpoint_parse_resume_post",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Body_parse_resume_endpoint_parse_resume_post"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/parse/jd": {
+            "post": {
+                "tags": ["Parse"],
+                "summary": "Parse Jd Endpoint",
+                "operationId": "parse_jd_endpoint_parse_jd_post",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Body_parse_jd_endpoint_parse_jd_post"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/score": {
+            "post": {
+                "tags": ["Score"],
+                "summary": "Score Endpoint",
+                "operationId": "score_endpoint_score_post",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Body_score_endpoint_score_post"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/score/text": {
+            "post": {
+                "tags": ["Score"],
+                "summary": "Score Text Endpoint",
+                "operationId": "score_text_endpoint_score_text_post",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/ScoreTextInput"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/report": {
+            "post": {
+                "tags": ["Report"],
+                "summary": "Report Endpoint",
+                "operationId": "report_endpoint_report_post",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Body_report_endpoint_report_post"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/report/text": {
+            "post": {
+                "tags": ["Report"],
+                "summary": "Report Text Endpoint",
+                "operationId": "report_text_endpoint_report_text_post",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/TextInput"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/analyze": {
+            "post": {
+                "tags": ["Analyze"],
+                "summary": "Analyze Endpoint",
+                "operationId": "analyze_endpoint_analyze_post",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Body_analyze_endpoint_analyze_post"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/analyze/text": {
+            "post": {
+                "tags": ["Analyze"],
+                "summary": "Analyze Text Endpoint",
+                "operationId": "analyze_text_endpoint_analyze_text_post",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/TextInput"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Body_analyze_endpoint_analyze_post": {
+                "properties": {
+                    "resume": {
+                        "type": "string",
+                        "format": "binary",
+                        "title": "Resume"
+                    },
+                    "jd": {
+                        "type": "string",
+                        "format": "binary",
+                        "title": "Jd"
+                    },
+                    "groq_model": {
+                        "type": "string",
+                        "title": "Groq Model",
+                        "default": "openai/gpt-oss-120b"
+                    }
+                },
+                "type": "object",
+                "required": ["resume", "jd"],
+                "title": "Body_analyze_endpoint_analyze_post"
+            },
+            "Body_parse_jd_endpoint_parse_jd_post": {
+                "properties": {
+                    "jd": {
+                        "type": "string",
+                        "format": "binary",
+                        "title": "Jd"
+                    }
+                },
+                "type": "object",
+                "required": ["jd"],
+                "title": "Body_parse_jd_endpoint_parse_jd_post"
+            },
+            "Body_parse_resume_endpoint_parse_resume_post": {
+                "properties": {
+                    "resume": {
+                        "type": "string",
+                        "format": "binary",
+                        "title": "Resume"
+                    }
+                },
+                "type": "object",
+                "required": ["resume"],
+                "title": "Body_parse_resume_endpoint_parse_resume_post"
+            },
+            "Body_report_endpoint_report_post": {
+                "properties": {
+                    "resume": {
+                        "type": "string",
+                        "format": "binary",
+                        "title": "Resume"
+                    },
+                    "jd": {
+                        "type": "string",
+                        "format": "binary",
+                        "title": "Jd"
+                    },
+                    "groq_model": {
+                        "type": "string",
+                        "title": "Groq Model",
+                        "default": "openai/gpt-oss-120b"
+                    }
+                },
+                "type": "object",
+                "required": ["resume", "jd"],
+                "title": "Body_report_endpoint_report_post"
+            },
+            "Body_score_endpoint_score_post": {
+                "properties": {
+                    "resume": {
+                        "type": "string",
+                        "format": "binary",
+                        "title": "Resume"
+                    },
+                    "jd": {
+                        "type": "string",
+                        "format": "binary",
+                        "title": "Jd"
+                    }
+                },
+                "type": "object",
+                "required": ["resume", "jd"],
+                "title": "Body_score_endpoint_score_post"
+            },
+            "HTTPValidationError": {
+                "properties": {
+                    "detail": {
+                        "items": {
+                            "$ref": "#/components/schemas/ValidationError"
+                        },
+                        "type": "array",
+                        "title": "Detail"
+                    }
+                },
+                "type": "object",
+                "title": "HTTPValidationError"
+            },
+            "ScoreTextInput": {
+                "properties": {
+                    "resume_text": {
+                        "type": "string",
+                        "title": "Resume Text"
+                    },
+                    "jd_text": {
+                        "type": "string",
+                        "title": "Jd Text"
+                    }
+                },
+                "type": "object",
+                "required": ["resume_text", "jd_text"],
+                "title": "ScoreTextInput"
+            },
+            "TextInput": {
+                "properties": {
+                    "resume_text": {
+                        "type": "string",
+                        "title": "Resume Text"
+                    },
+                    "jd_text": {
+                        "type": "string",
+                        "title": "Jd Text"
+                    },
+                    "groq_model": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Groq Model",
+                        "default": "openai/gpt-oss-120b"
+                    }
+                },
+                "type": "object",
+                "required": ["resume_text", "jd_text"],
+                "title": "TextInput"
+            },
+            "ValidationError": {
+                "properties": {
+                    "loc": {
+                        "items": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "integer"
+                                }
+                            ]
+                        },
+                        "type": "array",
+                        "title": "Location"
+                    },
+                    "msg": {
+                        "type": "string",
+                        "title": "Message"
+                    },
+                    "type": {
+                        "type": "string",
+                        "title": "Error Type"
+                    }
+                },
+                "type": "object",
+                "required": ["loc", "msg", "type"],
+                "title": "ValidationError"
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "incremental": true,
+        "plugins": [
+            {
+                "name": "next"
+            }
+        ],
+
+        "paths": {
+            "@/*": ["./*"]
+        }
+    },
+    "include": [
+        "next-env.d.ts",
+        "**/*.ts",
+        "**/*.tsx",
+        ".next/types/**/*.ts",
+        "app/(root)/Exam/exam-module/exam-mapping/exam-subject-group-mapping",
+        ".next/types/app/(root)/Exam/exam-module/reports/Burnpur/Burnpur_ProgressCardReportXI/page.tsx"
+    ],
+    "exclude": ["node_modules"]
+}
